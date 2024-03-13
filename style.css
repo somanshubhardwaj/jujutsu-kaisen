@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url("./bg.avif");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    font-weight: bolder;
+
+}
+.characters{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.character{
+    color: white;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+
+}
+h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.aboutanime{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 1.2rem;
+
+}
+.about{
+    width: 80%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    margin: 20px;
+    text-align: justify;
+}
+p{
+    text-align: justify;
+}
+.about h1{
+   margin-bottom: 20px;
+}
+img{
+    width:140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  
+    
+}
+.character h2{
+    margin-bottom: 14px;
+}
